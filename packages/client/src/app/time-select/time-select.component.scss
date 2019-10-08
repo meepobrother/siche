@@ -1,0 +1,18 @@
+.timeSelect {
+  display: flex;
+  flex-direction: row;
+  .content {
+    flex: 1;
+    cursor: pointer;
+    line-height: 50px;
+    height: 50px;
+    padding: 0px 20px;
+  }
+  a {
+    width: 80px;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    height: 50px;
+  }
+}

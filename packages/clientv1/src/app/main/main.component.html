@@ -1,0 +1,8 @@
+<TabBar [hidden]="hidden" [barTintColor]="'white'" [tintColor]="tintColor" [ngStyle]="tabbarStyle"
+    [activeTab]="selectedIndex" [unselectedTintColor]="unselectedTintColor"
+    [tabBarPosition]="topFlag ? 'top' : 'bottom'" (onPress)="tabBarTabOnPress($event)">
+    <TabBarItem *ngFor="let it of tabs;index as i;" [title]="it.title" [key]="i" [badge]="it.badge" [icon]="it.icon"
+        [selectedIcon]="it.selectedIcon">
+        <router-outlet></router-outlet>
+    </TabBarItem>
+</TabBar>

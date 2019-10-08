@@ -1,0 +1,24 @@
+.mobileAdd {
+  display: flex;
+  flex-direction: row;
+  .label {
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .content {
+    flex: 1;
+    cursor: pointer;
+    line-height: 50px;
+    height: 50px;
+    padding: 0px 20px;
+    overflow: hidden;
+  }
+  a {
+    width: 80px;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    height: 50px;
+  }
+}

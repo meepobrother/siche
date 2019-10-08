@@ -1,0 +1,32 @@
+.carAdd {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 20px;
+  padding: 10px 20px;
+  display: none;
+  .form-item {
+    height: 50px;
+    .label {
+      line-height: 50px;
+    }
+  }
+}
+.carSelect {
+  display: flex;
+  flex-direction: row;
+  .content {
+    flex: 1;
+    cursor: pointer;
+    line-height: 50px;
+    height: 50px;
+    padding: 0px 20px;
+  }
+  a {
+    width: 80px;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    height: 50px;
+  }
+}

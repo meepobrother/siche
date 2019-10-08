@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 100;
+  background-color: #fff;
+  ul {
+    width: 100vw;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    li {
+      height: 44px;
+      flex: 1;
+      line-height: 44px;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      cursor: pointer;
+      &.active {
+        background-color: #ff1717;
+        color: #fff;
+      }
+    }
+  }
+}

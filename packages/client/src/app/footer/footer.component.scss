@@ -1,0 +1,28 @@
+.footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1001;
+  background-color: #fff;
+  ul {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    li {
+      height: 50px;
+      flex: 1;
+      line-height: 50px;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      &.active {
+        background-color: #ff1717;
+        color: #fff;
+      }
+    }
+  }
+}

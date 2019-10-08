@@ -1,0 +1,12 @@
+<Navbar [icon]="icon" [rightContent]="rightContent" [mode]="'light'" (onLeftClick)="onLeftClick()">
+    小明出行
+</Navbar>
+
+<ng-template #icon>
+    <Icon [type]="'left'"></Icon>
+</ng-template>
+
+<ng-template #rightContent>
+    <Icon [type]="'search'" [ngStyle]="{ marginRight: '16px' }"></Icon>
+    <Icon [type]="'ellipsis'"></Icon>
+</ng-template>
